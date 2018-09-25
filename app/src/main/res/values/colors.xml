@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#2286c3</color>
+    <color name="colorPrimaryDark">#2286c3</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="navigationBarColor">#9be7ff</color>
+
+    <color name="buttonTextColor">#FFFFFF</color>
+    <color name="selectTextColor">#FFFFFF</color>
+
+
+    <color name="backgroundColor">#FFFFFF</color>
+    <color name="buttonAColor">#FF7F00</color>
+    <color name="buttonBColor">#006600</color>
+    <color name="textViewColor">#1f7cb7</color>
+
+
+    <color name="layoutColor">#FFC75F</color>
+    <color name="music_layout_color">#c86532</color>
+    <color name="song_title_color">#FFFFFF</color>
+    <color name="artist_title_color">#FFFFFF</color>
+
+    <color name="listViewColor">#FF6F91</color>
+
+
+    <color name="background_startColor">#81d4fa</color>
+    <color name="background_endColor">#9be7ff</color>
+
+    <color name="background_2_startColor">#2b5876</color>
+    <color name="background_2_endColor">#4e4376</color>
+    <color name="background_2_strokeColor">#ffffff</color>
+
+    <color name="background_4_startColor">#e65c00</color>
+    <color name="background_4_endColor">#F9D423</color>
+    <color name="background_4_strokeColor">#ffffff</color>
+
+    <color name="song_header_text_color">#FFFFFF</color>
+
+</resources>

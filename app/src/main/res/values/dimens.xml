@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--Dimensions for main_activity xml file -->
+
+    <dimen name="parent_linearlayout_padding">32dp</dimen>
+    <dimen name="child_linearlayout01_height">72dp</dimen>
+    <dimen name="child_linearlayout01_margin">8dp</dimen>
+
+    <dimen name="child_linearlayout02_height">72dp</dimen>
+    <dimen name="child_linearlayout02_margin">8dp</dimen>
+
+    <dimen name="child_linearlayout03_height">72dp</dimen>
+    <dimen name="child_linearlayout03_margin">8dp</dimen>
+
+    <dimen name="button_margin_left">16dp</dimen>
+    <dimen name="button_margin_right">16dp</dimen>
+
+    <dimen name="image_height">180dp</dimen>
+    <dimen name="button_textSize">16sp</dimen>
+    <dimen name="heading_textSize">20sp</dimen>
+    <dimen name="margin_general">16dp</dimen>
+
+    <!--Dimensions for list_songs xml file -->
+    <dimen name="linearlayout_list_padding">16dp</dimen>
+    <dimen name="song_title_text_size">16sp</dimen>
+    <dimen name="song_title_margin">4dp</dimen>
+    <dimen name="artist_title_text_size">16sp</dimen>
+    <dimen name="artit_title_margin">4dp</dimen>
+    <dimen name="song_image_width">100dp</dimen>
+    <dimen name="song_image_height">100dp</dimen>
+    <dimen name="play_image_width">50dp</dimen>
+    <dimen name="play_image_height">50dp</dimen>
+
+    <!--Dimensions for play_music_activity xml file -->
+
+    <dimen name="play_music_ll_main_padding">32dp</dimen>
+    <dimen name="music_title_margin_bottom">8dp</dimen>
+    <dimen name="music_image_width">300dp</dimen>
+    <dimen name="music_image_height">300dp</dimen>
+    <dimen name="play_music_ll__padding">8dp</dimen>
+
+    <dimen name="previous_button_width">42dp</dimen>
+    <dimen name="previous_button_height">42dp</dimen>
+    <dimen name="previous_button_margin_right">24dp</dimen>
+
+    <dimen name="pause_button_width">42dp</dimen>
+    <dimen name="pause_button_height">42dp</dimen>
+    <dimen name="pause_button_margin_right">24dp</dimen>
+
+    <dimen name="next_button_width">42dp</dimen>
+    <dimen name="next_button_height">42dp</dimen>
+
+
+    <!--Dimensions for song_list_header xml file -->
+    <dimen name="song_header_text_size">20sp</dimen>
+    <dimen name="song_header_text_padding">8dp</dimen>
+
+    <!--Dimensions for song_activity xml file -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+
+</resources>

@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">MusicBox</string>
+    <string name="music_type_text">SELECT YOUR MUSIC TYPE</string>
+    <string name="genre_01">Rock</string>
+    <string name="genre_02">Classic Music</string>
+    <string name="genre_03">Blues</string>
+    <string name="genre_04">Hip Hop / Rap</string>
+    <string name="genre_05">Jazz</string>
+    <string name="genre_06">Vocal</string>
+    <string name="genre_07">Pop</string>
+    <string name="genre_08">New Age</string>
+    <string name="genre_09">Country Music</string>
+    <string name="genre_10">World Music</string>
+    <string name="song_header">SELECT A SONG TO ENJOY</string>
+    <string name="play_text">Now Playing :</string>
+    <string name="song_title">Song title</string>
+    <string name="artist_title">Artist title</string>
+
+</resources>

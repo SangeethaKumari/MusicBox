@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/list_linearlayout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/navigationBarColor"
+    android:gravity="center_vertical"
+    android:minHeight="?android:attr/listPreferredItemHeight"
+    android:orientation="horizontal"
+    android:padding="@dimen/linearlayout_list_padding">
+
+    <ImageView
+        android:id="@+id/song_image"
+        android:layout_width="@dimen/song_image_width"
+        android:layout_height="@dimen/song_image_height"
+        tools:background="@drawable/music_icon_4" />
+
+    <RelativeLayout
+        android:id="@+id/music_layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:background="@color/music_layout_color">
+
+        <TextView
+            android:id="@+id/song_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_margin="@dimen/song_title_margin"
+            android:textColor="@color/song_title_color"
+            android:textSize="@dimen/song_title_text_size"
+            android:textStyle="bold"
+            tools:text="@string/song_title"/>
+
+        <TextView
+            android:id="@+id/artist_name"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/song_title"
+            android:layout_margin="@dimen/artit_title_margin"
+            android:textColor="@color/artist_title_color"
+            android:textSize="@dimen/artist_title_text_size"
+            android:textStyle="bold"
+            tools:text="@string/artist_title"/>
+
+        <ImageView
+            android:id="@+id/play_image"
+            android:layout_width="@dimen/play_image_width"
+            android:layout_height="@dimen/play_image_height"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            tools:background="@drawable/music_icon1"
+            />
+    </RelativeLayout>
+
+</LinearLayout>
+

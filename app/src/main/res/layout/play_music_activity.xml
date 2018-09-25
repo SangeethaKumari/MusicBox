@@ -1,0 +1,62 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/background_1"
+    android:orientation="vertical"
+    tools:context="com.twisterssportscenter.android.musicbox.PlayMusicActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="@dimen/play_music_ll_main_padding">
+
+        <TextView
+            android:id="@+id/music_title"
+            style="@style/cTextViewStyle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="@dimen/music_title_margin_bottom"
+            android:gravity="center_horizontal"
+            android:text="@string/play_text" />
+
+        <ImageView
+            android:id="@+id/music_image"
+            android:layout_width="@dimen/music_image_width"
+            android:layout_height="@dimen/music_image_height"
+            android:layout_gravity="center_horizontal"
+            android:background="@drawable/music_icon_3"/>
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:orientation="horizontal"
+            android:padding="@dimen/play_music_ll__padding">
+
+            <Button
+                android:id="@+id/previous"
+                android:layout_width="@dimen/previous_button_width"
+                android:layout_height="@dimen/previous_button_height"
+                android:layout_marginRight="@dimen/previous_button_margin_right"
+                android:background="@drawable/previous_icon_1"/>
+
+            <Button
+                android:id="@+id/pause"
+                android:layout_width="@dimen/pause_button_width"
+                android:layout_height="@dimen/pause_button_height"
+                android:layout_marginRight="@dimen/pause_button_margin_right"
+                android:background="@drawable/pause_icon_1"
+                android:onClick="pauseMusic"/>
+
+            <Button
+                android:id="@+id/next"
+                android:layout_width="@dimen/next_button_width"
+                android:layout_height="@dimen/next_button_height"
+                android:background="@drawable/next_icon1"/>
+
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

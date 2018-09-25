@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="com.twisterssportscenter.android.musicbox.MainActivity"
+    android:background="@drawable/background_1">
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        >
+        <LinearLayout
+            android:id="@+id/parent_linearlayout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:padding="@dimen/parent_linearlayout_padding">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="@string/music_type_text"
+                style="@style/cTextViewStyle"
+                android:gravity="center_horizontal"
+                />
+
+            <LinearLayout
+                android:id="@+id/child_linearlayout01"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/child_linearlayout01_height"
+                android:layout_margin="@dimen/child_linearlayout01_margin"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/genre_01"
+                    style="@style/CustomButtonAStyle"
+                    android:layout_marginRight="@dimen/button_margin_right"
+                    android:text="@string/genre_01" />
+
+                <Button
+                    android:id="@+id/genre_02"
+                    style="@style/CustomButtonBStyle"
+                    android:layout_marginLeft="@dimen/button_margin_left"
+                    android:text="@string/genre_02" />
+                />
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/child_linearlayout02"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/child_linearlayout02_height"
+                android:layout_margin="@dimen/child_linearlayout02_margin"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/genre_03"
+                    style="@style/CustomButtonBStyle"
+                    android:text="@string/genre_03"
+                    android:layout_marginRight="@dimen/button_margin_right"/>
+
+
+                <Button
+                    android:id="@+id/genre_04"
+                    style="@style/CustomButtonAStyle"
+                    android:text="@string/genre_04"
+                    android:layout_marginLeft="@dimen/button_margin_left"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/child_linearlayout03"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/child_linearlayout03_height"
+                android:layout_margin="@dimen/child_linearlayout03_margin"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/genre_05"
+                    style="@style/CustomButtonAStyle"
+                    android:text="@string/genre_05"
+                    android:layout_marginRight="@dimen/button_margin_right"
+                    />
+
+                <Button
+                    android:id="@+id/genre_06"
+                    style="@style/CustomButtonBStyle"
+                    android:text="@string/genre_06"
+                    android:layout_marginLeft="@dimen/button_margin_left"
+                    />
+                />
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
